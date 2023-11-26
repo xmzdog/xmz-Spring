@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="person" class="com.xmz.bean.Person">
+        <property name="age" value="18"></property>
+        <property name="name" value="zhangsan"></property>
+    </bean>
+
+    <bean class="com.xmz.bean.Cat">
+        <property name="name" value="wangwang"></property>
+        <property name="master" ref="person"></property>
+    </bean>
+
+    <bean class="com.xmz.dao.impl.DemoDaoImpl"></bean>
+
+</beans>

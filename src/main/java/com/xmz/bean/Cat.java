@@ -4,10 +4,11 @@ package com.xmz.bean;
  * @author xmz
  * @date 2023-11-26
  */
-public class Person {
+public class Cat {
+
     private String name;
 
-    private Integer age;
+    private Person master;
 
     public String getName() {
         return name;
@@ -17,19 +18,19 @@ public class Person {
         this.name = name;
     }
 
-    public Integer getAge() {
-        return age;
+    public Person getMaster() {
+        return master;
     }
 
-    public void setAge(Integer age) {
-        this.age = age;
+    public void setMaster(Person master) {
+        this.master = master;
     }
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Cat{" +
                 "name='" + name + '\'' +
-                ", age=" + age +
+                ", master=" + master +
                 '}';
     }
 }

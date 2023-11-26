@@ -10,14 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7ac32e-a000-4cd7-b856-499f4bec8f84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmz/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmz/bean/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xmz-Spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmz/bean/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmz/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmz/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmz/bean/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmz/bean/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springXml/spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +69,17 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xmz-spring\xmz-Spring\target\classes" />
+      <recent name="C:\xmz-spring\xmz-Spring\src\main\resources\springXml" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xmz-spring\xmz-Spring\target\classes" />
+      <recent name="C:\xmz-spring\xmz-Spring\src\main\resources\springXml" />
       <recent name="C:\xmz-spring\xmz-Spring\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MainClass">
@@ -194,7 +201,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700986442412</updated>
-      <workItem from="1700986444021" duration="9939000" />
+      <workItem from="1700986444021" duration="11666000" />
     </task>
     <task id="LOCAL-00001" summary="IOC是怎么来的？实现一个简单的IOC">
       <created>1700994890689</created>
@@ -203,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700994890689</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DI">
+      <created>1701006395966</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701006395966</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +225,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IOC是怎么来的？实现一个简单的IOC" />
-    <option name="LAST_COMMIT_MESSAGE" value="IOC是怎么来的？实现一个简单的IOC" />
+    <MESSAGE value="DI" />
+    <option name="LAST_COMMIT_MESSAGE" value="DI" />
   </component>
 </project>
