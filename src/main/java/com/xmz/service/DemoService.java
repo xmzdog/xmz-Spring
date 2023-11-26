@@ -1,4 +1,4 @@
-package service;
+package com.xmz.service;
 
 import java.util.List;
 

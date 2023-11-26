@@ -1,6 +1,6 @@
-package servlet;
+package com.xmz.servlet;
 
-import service.impl.DemoServiceImpl;
+import com.xmz.service.impl.DemoServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

@@ -1,4 +1,4 @@
-package test;
+package com.xmz.test;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

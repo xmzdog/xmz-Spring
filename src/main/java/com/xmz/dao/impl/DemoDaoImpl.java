@@ -1,6 +1,6 @@
-package dao.impl;
+package com.xmz.dao.impl;
 
-import dao.DemoDao;
+import com.xmz.dao.DemoDao;
 
 import java.util.Arrays;
 import java.util.List;

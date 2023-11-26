@@ -1,4 +1,4 @@
-package dao;
+package com.xmz.dao;
 
 import java.util.List;
 
